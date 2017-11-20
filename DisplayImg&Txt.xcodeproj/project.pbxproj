@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		591591D41FBEF2DB00693DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591D31FBEF2DB00693DCA /* AppDelegate.swift */; };
-		591591D61FBEF2DB00693DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591D51FBEF2DB00693DCA /* ViewController.swift */; };
 		591591D91FBEF2DB00693DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591591D71FBEF2DB00693DCA /* Main.storyboard */; };
 		591591DC1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 591591DA1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodeld */; };
 		591591DE1FBEF2DB00693DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 591591DD1FBEF2DB00693DCA /* Assets.xcassets */; };
 		591591E11FBEF2DB00693DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591591DF1FBEF2DB00693DCA /* LaunchScreen.storyboard */; };
 		591591EC1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591EB1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift */; };
+		591591F91FBF0A5000693DCA /* carImageShowTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591F81FBF0A5000693DCA /* carImageShowTVController.swift */; };
+		59CD5B781FC2A29F00760D33 /* showCarDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD5B771FC2A29F00760D33 /* showCarDetailsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,6 @@
 /* Begin PBXFileReference section */
 		591591D01FBEF2DB00693DCA /* DisplayImg&Txt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DisplayImg&Txt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591591D31FBEF2DB00693DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		591591D51FBEF2DB00693DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		591591D81FBEF2DB00693DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		591591DB1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DisplayImg_Txt.xcdatamodel; sourceTree = "<group>"; };
 		591591DD1FBEF2DB00693DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +38,8 @@
 		591591E71FBEF2DB00693DCA /* DisplayImg&TxtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DisplayImg&TxtTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591591EB1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImg_TxtTests.swift; sourceTree = "<group>"; };
 		591591ED1FBEF2DB00693DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591591F81FBF0A5000693DCA /* carImageShowTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carImageShowTVController.swift; sourceTree = "<group>"; };
+		59CD5B771FC2A29F00760D33 /* showCarDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showCarDetailsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				591591D31FBEF2DB00693DCA /* AppDelegate.swift */,
-				591591D51FBEF2DB00693DCA /* ViewController.swift */,
+				591591F81FBF0A5000693DCA /* carImageShowTVController.swift */,
+				59CD5B771FC2A29F00760D33 /* showCarDetailsCell.swift */,
 				591591D71FBEF2DB00693DCA /* Main.storyboard */,
 				591591DD1FBEF2DB00693DCA /* Assets.xcassets */,
 				591591DF1FBEF2DB00693DCA /* LaunchScreen.storyboard */,
@@ -202,7 +205,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				591591D61FBEF2DB00693DCA /* ViewController.swift in Sources */,
+				59CD5B781FC2A29F00760D33 /* showCarDetailsCell.swift in Sources */,
+				591591F91FBF0A5000693DCA /* carImageShowTVController.swift in Sources */,
 				591591DC1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodeld in Sources */,
 				591591D41FBEF2DB00693DCA /* AppDelegate.swift in Sources */,
 			);
