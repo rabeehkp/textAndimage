@@ -14,6 +14,7 @@
 		591591E11FBEF2DB00693DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591591DF1FBEF2DB00693DCA /* LaunchScreen.storyboard */; };
 		591591EC1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591EB1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift */; };
 		591591F91FBF0A5000693DCA /* carImageShowTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591591F81FBF0A5000693DCA /* carImageShowTVController.swift */; };
+		59B641601FC40F42002C0940 /* imgShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B6415F1FC40F42002C0940 /* imgShowVC.swift */; };
 		59CD5B781FC2A29F00760D33 /* showCarDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59CD5B771FC2A29F00760D33 /* showCarDetailsCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		591591EB1FBEF2DB00693DCA /* DisplayImg_TxtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImg_TxtTests.swift; sourceTree = "<group>"; };
 		591591ED1FBEF2DB00693DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		591591F81FBF0A5000693DCA /* carImageShowTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carImageShowTVController.swift; sourceTree = "<group>"; };
+		59B6415F1FC40F42002C0940 /* imgShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgShowVC.swift; sourceTree = "<group>"; };
 		59CD5B771FC2A29F00760D33 /* showCarDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showCarDetailsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				591591DF1FBEF2DB00693DCA /* LaunchScreen.storyboard */,
 				591591E21FBEF2DB00693DCA /* Info.plist */,
 				591591DA1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodeld */,
+				59B6415F1FC40F42002C0940 /* imgShowVC.swift */,
 			);
 			path = "DisplayImg&Txt";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59CD5B781FC2A29F00760D33 /* showCarDetailsCell.swift in Sources */,
+				59B641601FC40F42002C0940 /* imgShowVC.swift in Sources */,
 				591591F91FBF0A5000693DCA /* carImageShowTVController.swift in Sources */,
 				591591DC1FBEF2DB00693DCA /* DisplayImg_Txt.xcdatamodeld in Sources */,
 				591591D41FBEF2DB00693DCA /* AppDelegate.swift in Sources */,
